@@ -15,16 +15,22 @@
     "rxjs-pubsub",
     "typescript",
     "publish",
-    "subscribe"
+    "subscribe",
+    "ts-pubsub"
   ],
   "author": "Sajan Mittal <sajanmittal@hotmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sajanmittal/usePubSub.git"
+    "url": "git+https://github.com/sajanmittal/usePubSub.git"
   },
   "dependencies": {
     "rxjs": "^7.1.0",
     "yarn": "^1.22.11"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sajanmittal/usePubSub/issues"
+  },
+  "homepage": "https://github.com/sajanmittal/usePubSub#readme",
+  "devDependencies": {}
 }
