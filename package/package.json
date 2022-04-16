@@ -1,5 +1,5 @@
 {
-  "name": "@pass/ts-pubsub",
+  "name": "pubsub-util",
   "version": "1.0.0",
   "description": "Rxjs based pubsub library for react and angular",
   "main": "index.js",
