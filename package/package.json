@@ -1,15 +1,26 @@
 {
   "name": "ts-pubsub",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rxjs based pubsub library for react and angular",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "pubsub",
+    "rxjs",
+    "rx",
+    "angular",
+    "react",
+    "rxjs-pubsub",
+    "typescript",
+    "publish",
+    "subscribe"
+  ],
+  "author": "Sajan Mittal <sajanmittal@hotmail.com>",
   "license": "ISC",
   "dependencies": {
-    "rxjs": "^7.1.0"
+    "rxjs": "^7.1.0",
+    "yarn": "^1.22.11"
   }
 }
