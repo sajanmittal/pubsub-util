@@ -1,5 +1,5 @@
 {
-  "name": "ts-pubsub",
+  "name": "@pass/ts-pubsub",
   "version": "1.0.0",
   "description": "Rxjs based pubsub library for react and angular",
   "main": "index.js",
@@ -25,8 +25,7 @@
     "url": "git+https://github.com/sajanmittal/usePubSub.git"
   },
   "dependencies": {
-    "rxjs": "^7.1.0",
-    "yarn": "^1.22.11"
+    "rxjs": "^7.1.0"
   },
   "bugs": {
     "url": "https://github.com/sajanmittal/usePubSub/issues"
