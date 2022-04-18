@@ -22,14 +22,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sajanmittal/usePubSub.git"
+    "url": "git+https://github.com/sajanmittal/pubsub-util.git"
   },
   "dependencies": {
     "rxjs": "^7.1.0"
   },
   "bugs": {
-    "url": "https://github.com/sajanmittal/usePubSub/issues"
+    "url": "https://github.com/sajanmittal/pubsub-util/issues"
   },
-  "homepage": "https://github.com/sajanmittal/usePubSub#readme",
+  "homepage": "https://github.com/sajanmittal/pubsub-util#readme",
   "devDependencies": {}
 }
