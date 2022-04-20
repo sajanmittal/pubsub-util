@@ -1,6 +1,6 @@
 {
   "name": "pubsub-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rxjs based pubsub library for react and angular",
   "main": "index.js",
   "scripts": {
