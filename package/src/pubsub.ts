@@ -162,7 +162,7 @@ export const publisher: IPublisher<EventArgs> = {
                     .then(b => {if(b) console.info('event', t, 'published')})
                     .catch(error => { console.error('event', t, 'error', error) })
                 }else{             
-                    console.warn('event', t,'does not exist!!');
+                    console.warn('event', t,' does not exist!!');
                 }
             });
             return true;
@@ -180,7 +180,7 @@ export const initialize = <T extends EventArgs>(subscribeHandler?: (subscriber: 
         return subscriber;
 }
 
-export const distroy = <T extends EventArgs>(subscriber: ISubscriber<T>) => {
+export const destroy = <T extends EventArgs>(subscriber: ISubscriber<T>) => {
         subscriber.subsscribedEvents.forEach((event, index, arr) => {
                 const observable = eventMapper.get(event);
                 if(observable){
